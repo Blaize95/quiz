@@ -1,0 +1,113 @@
+header {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .left {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .right {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 80px 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body.correct {
+    background-color: rgb(81, 165, 81);
+}
+body.wrong {
+    background-color: rgb(172, 76, 76);
+}
+
+body::before, body::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: rgb(44, 44, 151);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(33, 118, 187);
+}
+
+.start-btn {
+    font: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.next-btn {
+    font: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+   display: none; 
+}
+
+
