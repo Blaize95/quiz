@@ -11,16 +11,17 @@ header {
     width: 100%;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Style the highscore inside the navigation bar */
   .left {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 15px;
+    padding: 30px 30px;
     text-decoration: none;
     font-size: 17px;
   }
 
+  /* style time left inside the nav bar */
   .right {
     float: right;
     color: #f2f2f2;
@@ -36,6 +37,7 @@ header {
     color: black;
   }
   
+  /* body styling */
 body {
     background-color: white;
     padding: 0;
@@ -67,6 +69,8 @@ body::before, body::after {
     padding: 10px;
     box-shadow: 0 0 10px 2px;
 }
+
+/* button styling */
 
 .btn-grid {
     display: grid;
